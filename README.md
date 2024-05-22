@@ -1,2 +1,2 @@
 # DSA with JAVA
-## All Data Structures have their own Folders
+### All Data Structures have their own Folders
