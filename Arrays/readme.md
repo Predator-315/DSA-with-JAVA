@@ -11,8 +11,8 @@
 - ### _Holds multiple values under a single variable name._ 
 
 ## **Types of Arrays**
-- ### _Single Dimnesional Array(SDA)_
-- ### _Multi Dimnesional Array(MDA) (Array of Arrays)_
+- ### _Single Dimensional Array(SDA)_
+- ### _Multi Dimensional Array(MDA) (Array of Arrays)_
 
 ## **Declaration:**
 #### Method 1:
