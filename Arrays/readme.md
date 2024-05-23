@@ -90,8 +90,15 @@ num[1][0] //returns the first element of 2nd row
 ## **Memory Allocation for Array**
   ```
   int num[];
-  num=new num[5];
+  num=new int[5];
   ```
 - ### _When 1st statement is executed, it creates a pointer/reference variable named 'num' in the stack memory, which points to null initially_
 - ### _When 2nd statement is executed, it allocates memory in heap memory (here,4*5=20 bytes) at contigious memory locations & the reference/memory address of the first element is stored in the pointer variable 'num'(which means 'num' points to the first element of the array)._
 - ### _Suppose, num[2] is accessed, then it will refer to the memory address of the 2th element by moving 2 positions from 0th position._
+
+## **Shallow Copy of Array**
+```
+int a[]=new int[10];
+int b[]=a; //shallow copy of Array a
+```
+### _Here, the memory address of the first element of Array a to which the pointer variable 'a' is pointing, will be assigned to pointer variable 'b', which means b will also refer to the same memory location of Array a due to which any changes made through b will reflect on a & vice-versa._
