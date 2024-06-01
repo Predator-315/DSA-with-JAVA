@@ -24,7 +24,13 @@ int num[]=new int[6];
 //Declaration of DDA
 int num[][]=new int[3][2];
 // 3 rows & 2 columns here
+
+//Special case: Jagged Array
+//Sub-Arrays can have different lengths (i.e.,different no. of columns)
+//here, we don't specify the no. of columns
+int num[][]=new int[3][];
 ```
+
 #### Method 2 (Array literal):
 ```
 //Declaration & Initialization of SDA
