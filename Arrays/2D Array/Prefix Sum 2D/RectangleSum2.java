@@ -33,27 +33,13 @@ class RectangleSum2
     {
         makePrefixSumByRowColumn(a);
         int sum=0,left=0,up=0,leftUp=0;
-        if(l1==0 && r1==0)
-        {
-            sum=a[l2][r2];
-        }
-        if(l1!=0 && r1==0)
-        {
-            up=a[l1-1][r2];
-            sum=a[l2][r2]-up;
-        }
-        if(l1==0 && r1!=0)
-        {
-            left=a[l2][r1-1];
-            sum=a[l2][r2]-left;
-        }
-        if(l1!=0 && r1!=0)
-        {
-            up=a[l1-1][r2];
-            left=a[l2][r1-1];
-            leftUp=a[l1-1][r1-1];
-            sum=a[l2][r2]-left-up+leftUp;
-        }
+        if(l1>0)
+        up=a[l1-1][r2];
+        if(r1>0)
+        left=a[l2][r1-1];
+        if(l1>0 && r1>0)
+        leftUp=a[l1-1][r1-1];
+        sum=a[l2][r2]-left-up+leftUp;  
         return sum;
     }
     static void printMatrix(int a[][])
@@ -69,7 +55,7 @@ class RectangleSum2
     }
     public static void main(String[] args) 
     {
-        int l1=1,r1=0,l2=2,r2=3;
+        int l1=0,r1=1,l2=2,r2=3;
         int a[][]={{1,2,3,4,17},{5,6,7,8,18},{9,10,11,12,19},{13,14,15,16,20}};
         printMatrix(a);
         System.out.println("SUM OF RECTANGLE= "+rectangleSum(a, l1, r1, l2, r2));
