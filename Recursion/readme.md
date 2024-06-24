@@ -5,21 +5,30 @@
 
 ## Diagrammatic Representation
 
-#### main()
+- #### main()
 ![Image 1](https://github.com/Predator-315/DSA-with-JAVA/blob/main/Recursion/assets/Recursion_1.png) 
-#### when n=4
+---
+- #### when n=4
 ![Image 2](https://github.com/Predator-315/DSA-with-JAVA/blob/main/Recursion/assets/Recursion_2.png)
-#### When n=3
+---
+- #### When n=3
 ![Image 3](https://github.com/Predator-315/DSA-with-JAVA/blob/main/Recursion/assets/Recursion_3.png)
-#### When n=2
+---
+- #### When n=2
 ![Image 4](https://github.com/Predator-315/DSA-with-JAVA/blob/main/Recursion/assets/Recursion_4.png)
-#### When n=1
+---
+- #### When n=1
 ![Image 5](https://github.com/Predator-315/DSA-with-JAVA/blob/main/Recursion/assets/Recursion_5.png)
-#### When n=2
+---
+- #### When n=2
 ![Image 6](https://github.com/Predator-315/DSA-with-JAVA/blob/main/Recursion/assets/Recursion_6.png)
-#### When n=3
+---
+- #### When n=3
 ![Image 7](https://github.com/Predator-315/DSA-with-JAVA/blob/main/Recursion/assets/Recursion_7.png)
-#### When n=4
+---
+- #### When n=4
 ![Image 8](https://github.com/Predator-315/DSA-with-JAVA/blob/main/Recursion/assets/Recursion_8.png)
-#### main()
+---
+- #### main()
 ![Image 9](https://github.com/Predator-315/DSA-with-JAVA/blob/main/Recursion/assets/Recursion_9.png)
+---
