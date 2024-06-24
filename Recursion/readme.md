@@ -3,7 +3,27 @@
 - ### Whenever a function is called/invoked, it creates a stack frame on the call stack & upon its completion of execution, the stack frame gets removed from the call stack.
 - ### The call stack works on the principle of LIFO(Last in First Out).
 
-## Diagrammatic Representation
+## Example
+```
+static void printIncreasing(int n)
+{
+  if(n==1)                 //Line 1
+  {                        
+    System.out.println(1); //Line 2
+    return;                //Line 3
+  }
+  printIncreasing(n-1);    //Line 4
+  System.out.println(n);   //Line 5
+}
+public static void main()  
+{
+  int n=5                  //Line 1
+  printIncreasing(n);      //Line 2
+}
+//Output: 1 2 3 4
+```
+
+## Diagrammtic Representation
 
 - #### main()
 ![Image 1](https://github.com/Predator-315/DSA-with-JAVA/blob/main/Recursion/assets/Recursion_1.png) 
