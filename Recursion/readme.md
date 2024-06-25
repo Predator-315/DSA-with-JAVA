@@ -2,17 +2,33 @@
 - ### When a function calls itself in its own body, then it is a recursive function.
 - ### Whenever a function is called/invoked, it creates a stack frame on the call stack & upon its completion of execution, the stack frame gets removed from the call stack.
 - ### The call stack works on the principle of LIFO(Last in First Out).
+- ### In Recursion, a problem is seen as a function & a bigger problem is solved by solving its subproblem.
+  ### Example: sum(n)=sum(n-1)+n
+
+- ### Each recursive function has a base case/haulting condition which terminates from infinite recursion.
+
+- ### Base case is the smallest subproblem where the solution is pre-known or can be easily evaluated & which can't be divided into further subproblem.
+
+- ### The relation between a problem & its subproblem is called Recurrence Relation.
+
+## Approach to solve Recursion questions:
+- ### Step 1: Identify the subproblem
+- ### Step 2: Self work(Logic part)
+- ### Step 3: Identify the base case
 
 ## Example
 ```
 static void printIncreasing(int n)
 {
+  //base case
   if(n==1)                 //Line 1
   {                        
     System.out.println(1); //Line 2
     return;                //Line 3
   }
+  //subproblem
   printIncreasing(n-1);    //Line 4
+  //self work
   System.out.println(n);   //Line 5
 }
 public static void main()  
