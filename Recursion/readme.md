@@ -1,20 +1,24 @@
 # Recursion
-- ### When a function calls itself in its own body, then it is a recursive function.
-- ### Whenever a function is called/invoked, it creates a stack frame on the call stack & upon its completion of execution, the stack frame gets removed from the call stack.
-- ### The call stack works on the principle of LIFO(Last in First Out).
-- ### In Recursion, a problem is seen as a function & a bigger problem is solved by solving its subproblem.
-  ### Example: sum(n)=sum(n-1)+n
+- ### _When a function calls itself in its own body, then it is a recursive function._
+- ### _Whenever a function is called/invoked, it creates a stack frame on the call stack & upon its completion of execution, the stack frame gets removed from the call stack._
+- ### _The call stack works on the principle of LIFO(Last in First Out)._
+- ### _In Recursion, a problem is seen as a function & a bigger problem is solved by solving its subproblem._
+  ### _Example: sum(n)=sum(n-1)+n_
 
-- ### Each recursive function has a base case/haulting condition which terminates from infinite recursion.
+- ### _Each recursive function has a base case/haulting condition which terminates from infinite recursion._
 
-- ### Base case is the smallest subproblem where the solution is pre-known or can be easily evaluated & which can't be divided into further subproblem.
+- ### _Base case is the smallest subproblem where the solution is pre-known or can be easily evaluated & which can't be divided into further subproblem._
 
-- ### The relation between a problem & its subproblem is called Recurrence Relation.
+- ### _The relation between a problem & its subproblem is called Recurrence Relation._
+
+- ### _Time complexity = No of recursive calls * Time taken in one recursive call(usually constant)_
+
+- ### _Space complexity = Max No of stack frames in call stack at any time_
 
 ## Approach to solve Recursion questions:
-- ### Step 1: Identify the subproblem
-- ### Step 2: Self work(Logic part)
-- ### Step 3: Identify the base case
+- ### _Step 1: Identify the subproblem_
+- ### _Step 2: Self work(Logic part)_
+- ### _Step 3: Identify the base case_
 
 ## Example
 ```
